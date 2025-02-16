@@ -1,5 +1,6 @@
 import { io } from "socket.io-client";
 
+// Changer le port pour s'adapter au server
 const adress = "http://localhost:3033";
 console.log("connecting to: ", adress);
 const socket = io(adress);
